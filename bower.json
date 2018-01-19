@@ -1,0 +1,32 @@
+{
+  "name": "comeet-test",
+  "version": "1.0",
+  "homepage": "",
+  "authors": [
+    "Shai Ben Or"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-bootstrap": "1.1.2",
+    "angular-ui-router": "0.2.15",
+    "bootstrap": "3.3.6"
+  },
+  "devDependencies": {
+    "angular-spies": "1.0.5",
+    "angular-mocks": "1.5.8",
+    "jasmine-given": "2.6.3"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
+  }
+}
