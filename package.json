@@ -1,9 +1,13 @@
 {
-  "name": "angular-seed",
+  "name": "weater",
   "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1" ,
+    "npm": "2.1.x"
+  },
+  "description": "",
+  "repository": "",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
