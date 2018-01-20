@@ -3,14 +3,19 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "6.11.1" ,
+    "node": "6.11.1",
     "npm": "2.1.x"
   },
   "description": "",
   "repository": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
+    "angular": "1.5.8",
+    "@uirouter/angularjs": "1.0.0",
     "bower": "^1.7.7",
+    "bootstrap": "3.3.6"
+  },
+  "devDependencies": {
     "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
