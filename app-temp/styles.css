@@ -1,0 +1,63 @@
+h3 {
+  text-align: center;
+  margin: auto;
+  color: lightgray;
+}
+.globe {
+  display: block;
+  border: 2px solid #8bc34a;
+  border-radius: 50%;
+  height: 140px;
+  left: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+}
+.globe svg {
+  animation: rotation 5s linear 0s infinite;
+}
+.globe svg path {
+  stroke: #8BC34A;
+}
+@keyframes rotation {
+  from {
+    transform: translateX(0);
+  }
+  from {
+    transform: translateX(-50%);
+  }
+}
+.box {
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 8px 6px -6px black;
+  border: 2px solid #27ee4f;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 28px 16px -26px black;
+  -moz-box-shadow: 0 28px 16px -26px black;
+  box-shadow: 0 28px 16px -26px black;
+}
+.shadow {
+  -webkit-box-shadow: 0 28px 16px -26px black;
+  -moz-box-shadow: 0 28px 16px -26px black;
+  box-shadow: 0 28px 16px -26px black;
+}
+.fa {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 10px;
+  color: green;
+}
+.fa.active {
+  color: darkgreen;
+}
+.fa:hover {
+  color: lawngreen;
+}
+body {
+  min-height: 700px;
+}
