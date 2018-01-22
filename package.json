@@ -10,10 +10,12 @@
   "repository": "",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.5.8",
     "@uirouter/angularjs": "1.0.0",
+    "angular": "1.5.8",
+    "bootstrap": "3.3.6",
     "bower": "^1.7.7",
-    "bootstrap": "3.3.6"
+    "connect": "^3.6.5",
+    "serve-static": "^1.13.1"
   },
   "devDependencies": {
     "http-server": "^0.9.0",
@@ -23,14 +25,16 @@
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.8",
     "karma-junit-reporter": "^0.4.1",
-    "protractor": "^4.0.9"
+    "protractor": "^4.0.9",
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
   },
   "scripts": {
     "postinstall": "bower install",
     "update-deps": "npm update",
     "postupdate-deps": "bower update",
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1 ./app",
+    "start": "http-server -a localhost -p 8080 -c-1 ./app",
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run",
