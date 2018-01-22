@@ -1,7 +1,7 @@
 (function () {
 
-    var compName = 'view1',
-        templateUrl = 'view1/view1.html';
+    var compName = 'gmap',
+        templateUrl = 'main-view/map/map.html';
 
 
     angular
@@ -12,17 +12,14 @@
             controllerAs: 'vm'
         });
 
-    ctrl.$inject = [
-
-
-    ];
+    ctrl.$inject = [];
 
     function ctrl(weatherService) {
 
         var vm = this;
 
         function init() {
-           vm.city = "Tel Aviv"
+            window.city = "Tel Aviv"
 
 
         }
@@ -31,3 +28,4 @@
 
 
 })();
+
