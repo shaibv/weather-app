@@ -1,7 +1,7 @@
 (function () {
 
     var compName = 'gmap',
-        templateUrl = 'main-view/map/map.html';
+        templateUrl = 'app/main-view/map/map.html';
 
 
     angular

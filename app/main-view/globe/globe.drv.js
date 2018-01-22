@@ -1,7 +1,7 @@
 (function () {
 
         var compName = 'globe',
-            templateUrl = 'main-view/globe/globe.html';
+            templateUrl = 'app/main-view/globe/globe.html';
 
         angular.module('myApp')
             .directive(compName, drv);

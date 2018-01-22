@@ -1,7 +1,7 @@
 (function () {
 
     var compName = 'mainView',
-        templateUrl = 'main-view/main-view.html';
+        templateUrl = 'app/main-view/main-view.html';
 
 
     angular
@@ -13,9 +13,7 @@
         });
 
     ctrl.$inject = [
-
-        'view1/weather.srv'
-
+        'app/main-view/weather.srv'
     ];
 
     function ctrl(weatherService) {

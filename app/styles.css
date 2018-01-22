@@ -1,4 +1,4 @@
-h3 {
+.wait {
   text-align: center;
   margin: auto;
   color: lightgray;
@@ -11,7 +11,7 @@ h3 {
   left: 50%;
   overflow: hidden;
   position: relative;
-  top: 50%;
+  top: 60%;
   transform: translate(-50%, -50%);
   width: 140px;
 }
@@ -30,6 +30,7 @@ h3 {
   }
 }
 .box {
+  text-align: center;
   width: 500px;
   height: 350px;
   margin: auto;
@@ -41,6 +42,24 @@ h3 {
   -webkit-box-shadow: 0 28px 16px -26px black;
   -moz-box-shadow: 0 28px 16px -26px black;
   box-shadow: 0 28px 16px -26px black;
+}
+.box .btn {
+  padding: 10px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  color: darkgreen;
+  cursor: pointer;
+}
+.box .btn:hover {
+  background-color: darkgreen;
+  color: white;
+}
+.box input {
+  border: 1px green solid;
+  border-radius: 4px;
+  padding: 1px 2px;
+  margin-bottom: 4px;
+  text-align: left;
 }
 .shadow {
   -webkit-box-shadow: 0 28px 16px -26px black;
@@ -58,6 +77,13 @@ h3 {
 }
 .fa:hover {
   color: lawngreen;
+}
+#map {
+  position: relative;
+  margin: auto;
+  height: 300px;
+  border-radius: 50px;
+  width: 400px;
 }
 body {
   min-height: 700px;

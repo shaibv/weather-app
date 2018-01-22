@@ -3,7 +3,7 @@
 
     angular
         .module('myApp')
-        .service('view1/weather.srv', service);
+        .service('app/main-view/weather.srv', service);
 
     service.$inject = [
 
