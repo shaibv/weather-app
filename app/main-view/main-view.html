@@ -1,0 +1,34 @@
+<div class="box">
+
+    <h2>I'm a..</h2>
+
+    <div class="gender-container">
+        <ul>
+            <li class="fa fa-male" ng-class="{active:vm.active=='male'}" ng-click="vm.getMenCity()"></li>
+            <li class="fa fa-female" ng-class="{active:vm.active=='female'}" ng-click="vm.getWomenCity()"></li>
+            <li class="fa fa-reddit" ng-class="{active:vm.active=='alien'}" ng-click="vm.selectAlien()"></li>
+        </ul>
+    </div>
+
+    <form ng-show="vm.active=='alien' && !vm.waiting" ng-model="vm.custom">
+        <div>
+            <label>Choose temperature:</label>
+            <input ng-model="vm.custom.temp"/>
+        </div>
+        <div>
+            <label>Choose humidity:    </label>
+            <input ng-model="vm.custom.humitity"/>
+        </div>
+        <br/>
+        <button class="btn" submit ng-click="vm.getAlienCity()">Go!</button>
+    </form>
+
+    <globe ng-show="vm.waiting"></globe>
+    <div ng-hide="vm.waiting" class="data">
+        <h2>The Best City Is:</h2>
+
+        <h1>{{vm.data.name}}</h1>
+
+        <map></map>
+    </div>
+</div>
